@@ -10,6 +10,12 @@ public class RectangleAksi {
         rl.cetakInfo();
         System.out.println("Luas Rectangle = "+rl.hitungLuas());
         rl.cetakLuas();
+        
+        Rectangle r2 = new Rectangle();
+        r2.cetakInfo();
+        
+        Rectangle r3 = new Rectangle(10,4);
+        r3.cetakInfo();
     }
     
 }
